@@ -24,11 +24,7 @@ last.
     setTimeout(toBe, 1000);
 })();
 
-// Callback function 1
-function friendsRomansCountrymen() {
-    opening.innerText += 'Friends, Romans, Countrymen, ';
-    setTimeout(placeholder, 1000);
-}
+
 
 // Callback function 2
 function toBe() {
@@ -36,40 +32,22 @@ function toBe() {
     setTimeout(orNotToBe, 1000);
 }
 
+// Callback function 5
+function orNotToBe() {
+    opening.textContent += 'or not to be, ';
+    setTimeout(thatIsTheQuestion, 1000);
+}
+
+
 // Callback function 3
 function thatIsTheQuestion() {
     opening.textContent += 'that is the question: ';
     setTimeout(finishSpeech, 1000);
 }
 
-// Callback function 4
-function myKingdomForAHorse() {
-    opening.innerText += 'My kingdom for a horse! ';
-    setTimeout(placeholder, 1000);
-}
 
-// Callback function 5
-function orNotToBe() {
-    opening.textContent += 'or not to be, ';
-    setTimeout(that, 1000);
-}
 
-// Callback function 6
-function placeholder() {
-    console.log('This placeholder function does nothing. ');
-}
 
-// Callback function 7
-function lendMeYourEars() {
-    opening.innerText += 'lend me your ears. ';
-    setTimeout(placeholder, 1000);
-}
-
-// Callback function 8
-function aHorse() {
-    opening.innerText += 'A horse! ';
-    setTimeout(placeholder, 1000);
-}
 
 // Callback function 9
 function finishSpeech() {
@@ -105,4 +83,34 @@ function finishSpeech() {
     And enterprises of great pith and moment
     With this regard their currents turn awry
     And lose the name of action.`;
+}
+
+// Callback function 1
+function friendsRomansCountrymen() {
+    opening.innerText += 'Friends, Romans, Countrymen, ';
+    setTimeout(placeholder, 1000);
+}
+
+// Callback function 4
+function myKingdomForAHorse() {
+    opening.innerText += 'My kingdom for a horse! ';
+    setTimeout(placeholder, 1000);
+}
+
+
+// Callback function 6
+function placeholder() {
+    console.log('This placeholder function does nothing. ');
+}
+
+// Callback function 7
+function lendMeYourEars() {
+    opening.innerText += 'lend me your ears. ';
+    setTimeout(placeholder, 1000);
+}
+
+// Callback function 8
+function aHorse() {
+    opening.innerText += 'A horse! ';
+    setTimeout(placeholder, 1000);
 }
